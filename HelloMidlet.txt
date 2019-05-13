@@ -1,0 +1,15 @@
+import javax.microedition.midlet.*;
+import javax.microedition.lcdui.*;
+public class HelloMidlet extends MIDlet 
+{
+	public void startApp()
+	{
+		Display.getDisplay(this).setCurrent(new TextBox("","Hello IV IT students",20,0));
+	}
+	public void pauseApp()
+	{
+	}
+	public void destroyApp(boolean unconditional)
+	{
+	}
+}
